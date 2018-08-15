@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Orbitron';
+	src: url(../../downloadFonts/Orbitron/Orbitron-Black.ttf);
+	src: url(../../downloadFonts/Orbitron/Orbitron-Bold.ttf);
+	src: url(../../downloadFonts/Orbitron/Orbitron-Medium.ttf);
+	src: url(../../downloadFonts/Orbitron/Orbitron-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Indie Flower';
+	src: url(../../downloadFonts/IndieFlower/IndieFlower.ttf);
+}
+
+@font-face {
+	font-family: 'Eater';
+	src: url(../../downloadFonts/Eater/Eater-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Maven Pro';
+	src: url(../../downloadFonts/Maven_Pro/MavenPro-Black.ttf);
+	src: url(../../downloadFonts/Maven_Pro/MavenPro-Bold.ttf);
+	src: url(../../downloadFonts/Maven_Pro/MavenPro-Medium.ttf);
+	src: url(../../downloadFonts/Maven_Pro/MavenPro-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Tangerine';
+	src: url(../../downloadFonts/Tangerine/Tangerine-Bold.ttf);
+	src: url(../../downloadFonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Shrikhand';
+	src: url(../../downloadFonts/Shrickhand/Shrikhand-Regular.ttf);
+}

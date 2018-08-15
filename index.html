@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Second asignment</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav id='mainNav'>
+			<input type="button" class="button" id="edit" value='Edit'>
+			<input type="button" class="button" id="bold" value='Bold'>
+			<input type="button" class="button" id="italic" value='Italic'>
+			<input type="button" class="button" id="underline" value='Underline'>
+			<select name="chooseFontSize" id="chooseFontSize">
+			<option value="7px">7px</option>
+			<option value="8px">8px</option>
+			<option value="9px">9px</option>
+			<option value="10px">10px</option>
+			<option value="11px">11px</option>
+			<option value="12px">12px</option>
+			<option value="14px">14px</option>
+			<option value="16px">16px</option>
+			<option value="18px">18px</option>
+			<option value="20px">20px</option>
+			<option value="30px">30px</option>
+			<option value="40px">40px</option>
+		</select>
+			<select name="chooseFontFamily" id="chooseFontFamily">
+			<option value="Georgia">Georgia</option>
+			<option value="Times New Roman">Times New Roman</option>
+			<option value="Arial">Arial</option>
+			<option value="Shrikhand">Shrikhand</option>
+			<option value="Tangerine">Tangerine</option>
+			<option value="Maven Pro">Maven Pro</option>
+			<option value="Verdana">Verdana</option>
+			<option value="Eater">Eater</option>
+			<option value="Trebuchet MS">Trebuchet MS</option>
+			<option value="Impact">Impact</option>
+			<option value="Indie Flower">Indie Flower</option>
+			<option value="Orbitron">Orbitron</option>
+		</select>
+			<input type="button" class="button" id="color" value='Color'>
+			<input type="button" class="button" id="background" value='Background'>
+		</nav>
+		<form name='choosePosition' id='choosePosition'>
+			<input type="radio" name='textPosition' id='left' class='radioPosition' value='left'><label for="left">left</label>
+			<input type="radio" name='textPosition' id='center' class='radioPosition' value='center'><label for="center" class='radioPosition'>center</label>
+			<input type="radio" name='textPosition' id='right' value='right'><label for="right" class='radioPosition'>right</label>
+		</form>
+		<nav id="editMenu">
+			<input type="button" id="saveButton" value='Save' class='shadowAnim'>
+			<form name='createListOrTable' id='createListOrTable'>
+				<input type="button" id="tableButton" class="editButton" value='Create Table'>
+				<input type="button" id="listButton" class="editButton" value='Create List'>
+			</form>
+		</nav>
+	</header>
+	<main>
+		<div class="viewZone" id='resultView'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Recusandae voluptates tempora id ipsam esse ut quasi reiciendis <br> rem earum deserunt quod sint totam asperiores aspernatur fugit, <br> illum impedit autem sed veniam neque vero blanditiis nisi in. <br> Voluptas distinctio, rem illum tempora, iure quidem nostrum sequi dolorem <br> dicta ullam ut dignissimos aperiam a aut doloremque nulla, quasi, <br> consectetur nesciunt culpa consequatur aspernatur neque impedit ad quaerat fugit. <br> Molestias explicabo delectus temporibus nihil ullam tenetur minus <br> dolorum labore, ipsam magnam amet nemo dicta nam laborum asperiores <br> quae quod ut neque, soluta perspiciatis officiis, architecto iure saepe tempore. <br> Ut voluptas iste laboriosam a.</p>
+		</div>
+		<div id="editArea">
+			<textarea name="typeCode" id="typeCode" cols="30" rows="10" placeholder="Write your code here!">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Recusandae voluptates tempora id ipsam esse ut quasi reiciendis <br> rem earum deserunt quod sint totam asperiores aspernatur fugit, <br> illum impedit autem sed veniam neque vero blanditiis nisi in. <br> Voluptas distinctio, rem illum tempora, iure quidem nostrum sequi dolorem <br> dicta ullam ut dignissimos aperiam a aut doloremque nulla, quasi, <br> consectetur nesciunt culpa consequatur aspernatur neque impedit ad quaerat fugit. <br> Molestias explicabo delectus temporibus nihil ullam tenetur minus <br> dolorum labore, ipsam magnam amet nemo dicta nam laborum asperiores <br> quae quod ut neque, soluta perspiciatis officiis, architecto iure saepe tempore. <br> Ut voluptas iste laboriosam a.</p>
+			</textarea>
+		</div>
+		<div id="chooseTextColor">
+			<input type="button" value='Background Image' id='buttonBG'>
+			<div id="colorsTypes">
+				<div class="colorBox" id="color1">red</div>
+				<div class="colorBox" id="color2">green</div>
+				<div class="colorBox" id="color3">blue</div>
+				<div class="colorBox" id="color4">white</div>
+				<div class="colorBox" id="color5">yellow</div>
+				<div class="colorBox" id="color6">purple</div>
+				<div class="colorBox" id="color7">gray</div>
+				<div class="colorBox" id="color8">pink</div>
+				<div class="colorBox" id="color9">brown</div>
+			</div>
+		</div>
+		<div id="picturesBox">
+			<input type="button" value='Background Color' id='buttonBG2'>
+			<div id="ninePictures">
+				<div class="pictureBox" id="picture1">url(img/tU28R46.jpg)</div>
+				<div class="pictureBox" id="picture2">url(img/Need-For-Speed-Background-15-1920x1080.jpg)</div>
+				<div class="pictureBox" id="picture3">url(img/loop-background-8.jpg)</div>
+				<div class="pictureBox" id="picture4">url(img/free-hd-background-18447-18914-hd-wallpapers.jpg)</div>
+				<div class="pictureBox" id="picture5">url(img/collage-background-plain-2.jpg)</div>
+				<div class="pictureBox" id="picture6">url(img/Background-Images-112.jpg)</div>
+				<div class="pictureBox" id="picture7">url(img/architecture_city_view_from_above_buildings_river_118446_1920x1080.jpg)</div>
+				<div class="pictureBox" id="picture8">url(img/953c1aabff229cc9c2512afff9cca12f.jpg)</div>
+				<div class="pictureBox" id="picture9">url(img/6e9ea0e629f945ed9f64ba43d241c79a.jpg)</div>
+			</div>
+			<form name='chooseFile' id="chooseFile">
+				Загрузити файл <input type="file" id='file' name='file' value='Виберіть файл'>
+			</form>
+		</div>
+		<div id="tableBox">
+			<form name="tablePart1" id="tablePart1" class='tabButton'>
+				<label for="rowLength" class='labelTable'>Кількість рядків 
+				<input type="text" id="rowLength" name='rowLength' value='5' class='tableInput'></label>
+				<label for="tableWidth" class='labelTable'>Ширина 
+				<input type="text" id="tableWidth" value='500' class='tableInput'></label>
+				<label for="cellSpacing" class='labelTable'>cellspacing 
+				<input type="text" id="cellSpacing" class="tableInput" name='cellSpacing' value = '10'>
+				</label>
+				<label for="borderWidth" class='labelTable'>Товщина рамки 
+				<input type="text" id="borderWidth" class="tableInput" name='borderWidth' value='3'></label>
+				<input type="button" id='resetData' name='resetData' value='Скинути' class='tabButton'>
+			</form>
+			<form name="tablePart2" id="tablePart2" class='tabButton'>
+				<label for="columnLength" class='labelTable'>К-сть стовбців
+				<input type="text" id="columnLength" class="tableInput" name='columnLength' value='5'></label>
+				<label for="tableHeight" class='labelTable' id='labelHeight'>Висота
+				<input type="text" id="tableHeight" class="tableInput" name = 'tableHeight' value='500'></label>
+				<label for="borderColor" class='labelTable' id=''>Колір рамки <input type="text" id="borderColor" class="tableInput" value='red' name='borderColor'></label>
+				<input type="button" id='createTableBtn' name='createTableBtn' value='Створити' class='tabButton'>
+			</form>
+		</div>
+		<form name='listForm' id='listForm' class='allList'>
+			<label for="" class='allList' id='labelType'>Тип списку: <input type="radio" id=orderList name='list' class='loopRadio' >ol <input type="radio" id='unorderedList' name='list' class='loopRadio'>ul</label> Тип маркера: <select name="listType" id="listTypeOrdered" class='allList'>
+				<option value="lower-latin" class='allList'>lower-latin</option>
+				<option value="decimal" class='allList'>decimal</option>
+				<option value="upper-roman" class='allList'>upper-roman</option>
+				<option value="lower-greek" class='allList'>lower-greek</option>
+			</select>
+			<select name="listTypeUn" id="listTypeUnordered" class='allList'>
+				<option value="none" class='allList'>none</option>
+				<option value="circle" class='allList'>circle</option>
+				<option value="square" class='allList'>square</option>
+				<option value="disc" class='allList'>disc</option>
+			</select>
+			<label for="itemQuantity" class='allList' id='labelCount'>Кількість елементів <input type="text" id='itemQuantity' value='5' class='allList'></label>
+			<p id="ListButtons" class='allList'>
+				<input type="button" value='скинути' id='resetList' class='listButtons'>
+				<input type="button" value='Створити список' id='createList' class='allList'>
+			</p>
+		</form>
+		<input type="button" id="blockButton">
+	</main>
+	<div id="blockBackground">
+		<form name='unblockForm' id="unblockForm">
+			<h4 id="myWorkPlace">Підтвердження користувача</h4>
+			<label for="loginInput" id="loginLable" class='labelTable'>Введіть Логін  <input type="text" id="loginInput" required></label>
+			<label for="passwordInput" id="passwordTable" class='labelTable'>Введіть Пароль <input type="password" id="passwordInput" required></label>
+			<input type="button" value='Вхід' id='enterButton'>
+		</form>
+	</div>
+	<script src='js/main.js'></script>
+</body>
+
+</html>
